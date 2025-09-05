@@ -1,6 +1,6 @@
 # Python Beginner Projects
 
-This repository contains two simple Python programs:
+This repository contains two simple Python programs designed for beginners to understand basic **conditionals** and **loops** in Python.
 
 1. **Odd or Even Checker** (`Task 1.py`)
 2. **Sum of Integers from 1 to 50** (`Task 2.py`)
@@ -9,8 +9,11 @@ This repository contains two simple Python programs:
 
 ## 1. Odd or Even Checker (`Task 1.py`)
 
-### Description
-This program checks whether a number entered by the user is **Odd** or **Even**.
+### Functionality
+This program asks the user to enter a number.  
+It then checks if the number is divisible by 2:  
+- If divisible, the program prints that the number is **Even**.  
+- Otherwise, it prints that the number is **Odd**.  
 
 ### Code
 ```python
@@ -29,8 +32,9 @@ else:
 
 ## 2. Sum of Integers from 1 to 50 (`Task 2.py`)
 
-### Description
-This program calculates the **sum of integers from 1 to 50** using a loop.
+### Functionality
+This program calculates the **sum of all integers from 1 to 50** using a loop.  
+It starts from 0, adds each number one by one, and finally prints the total result.  
 
 ### Code
 ```python
@@ -61,4 +65,5 @@ print("The sum of numbers from 0 to 50 is:", a)
 
 ---
 
-✨ These projects are perfect for learning **basic conditionals and loops** in Python.
+✨ These projects demonstrate basic **decision-making (if-else)** and **iteration (for loops)** in Python.  
+They are ideal for beginners to understand how programs interact with user input and perform simple calculations.
